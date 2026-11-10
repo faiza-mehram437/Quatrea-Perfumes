@@ -9,7 +9,8 @@ A multipage scrollytelling website for **Quatréa**, a fictional perfume house w
 | Autumn | **Cuir d'Ambre** (N°3) | Saffron, soft leather, amber |
 | Winter | **Givre Blanc** (N°4) | Frozen juniper, iris, cashmere woods |
 
-**Live demo:** _quatreaperfume.netlify.app_
+**Live demo:** [
+quatreaperfume](https://quatreaperfume.netlify.app/)
 
 ## What's inside
 
