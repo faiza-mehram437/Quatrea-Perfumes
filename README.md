@@ -9,7 +9,7 @@ A multipage scrollytelling website for **Quatréa**, a fictional perfume house w
 | Autumn | **Cuir d'Ambre** (N°3) | Saffron, soft leather, amber |
 | Winter | **Givre Blanc** (N°4) | Frozen juniper, iris, cashmere woods |
 
-**Live demo:** _add your Netlify link here_
+**Live demo:** _quatreaperfume.netlify.app_
 
 ## What's inside
 
@@ -20,7 +20,7 @@ A multipage scrollytelling website for **Quatréa**, a fictional perfume house w
 - **Responsive design**: works down to phone width and has a mobile menu.
 - **Accessibility**: respects *Reduce motion*. With that setting on, or if the animation libraries fail to load, the site shows a calm, fully readable version without animation. It also has a skip link, visible keyboard focus and a semantic page structure.
 
-All artwork (logo, bottles, pyramid, icons) is hand-written SVG, and the gradients are pure CSS. The site has **no image files**, so there are no image rights to worry about.
+
 
 ## Built with
 
@@ -44,26 +44,6 @@ quatrea-perfume/
 └── js/main.js        Bottles, particles, smooth scroll, animations, transitions
 ```
 
-## Run it locally
-
-Open a terminal in this folder and start a small local server. Don't open the files by double-clicking, because some browsers block parts of the page on `file://`.
-
-```bash
-python -m http.server 8000
-```
-
-Then visit http://localhost:8000 in your browser. Press `Ctrl + C` in the terminal to stop the server.
-
-## Deploy (Netlify drag-and-drop)
-
-1. Log in at https://app.netlify.com/drop.
-2. Drag the **whole `quatrea-perfume` folder** onto the page. Don't drag just `index.html`.
-3. Netlify gives you a live link. You can rename it under *Site configuration → Change site name*.
-
-### Updating after changes
-
-The CSS and JS links end with `?v=1`, for example `css/style.css?v=1`. After you edit `style.css` or `main.js`, change the number to `?v=2` (then 3, and so on) in **all six HTML files**. That way browsers download the new version instead of showing an old cached copy.
-
 ## Credits
 
-Designed and built by Faiza Mehram. Quatréa, its perfumes and its perfumer are fictional. This is a design concept.
+Designed and built by Faiza Mehram. 
